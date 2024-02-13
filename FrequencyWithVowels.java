@@ -4,7 +4,7 @@ public class FrequencyWithVowels {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter a word:");
         String word = sc.nextLine();
-        int vowels = 0 , consonant = 0;
+        int vowels = 0;
         System.out.println("Character frequencies:");
         for(char ch = 'a' ; ch <= 'z' ; ch++){
             int count = 0 ;
